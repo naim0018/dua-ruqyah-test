@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Sidenav from "@/components/shared/Sidenav/Sidenav";
+import Categories from "@/components/shared/Categories/Categories";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,9 +13,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme='light'>
-      <body className={inter.className}>
+      <body className={`bg-gray-50 px-10 py-8 ${inter.className} ` }>
+        <div className=" flex gap-6">
         <Sidenav/>
+        <Categories/>
+        </div>
         {children}
+     
         </body>
     </html>
   );

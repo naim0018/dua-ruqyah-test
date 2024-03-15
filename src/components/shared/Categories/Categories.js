@@ -8,7 +8,7 @@ const Categories = () => {
       <h3 className="w-[429px] h-[57px] flex items-center justify-center bg-green-600 rounded-tl-[10px] rounded-tr-[10px] border text-center   text-white text-[17px] font-semibold ">
         Categories
       </h3>
-      <div class="  flex items-center bg-white text-zinc-500 relative">
+      <div className="  flex items-center bg-white text-zinc-500 relative">
         <IoSearch className="text-3xl  " />
         <input
           type="text"

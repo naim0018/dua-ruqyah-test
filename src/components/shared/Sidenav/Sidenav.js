@@ -17,16 +17,16 @@ const Sidenav = () => {
         <Image src={logo} />
         </div>
         <div className=" flex flex-col justify-center items-center gap-[27px]">
-          <Image src={home} />
-          <Image src={allDuas} />
-          <Image src={memorize} />
-          <Image src={bookmark} />
-          <Image src={ruqyah} />
-          <Image src={qa} />
-          <Image src={book} />
+          <Image src={home} alt="Home"/>
+          <Image src={allDuas} alt="All Duas"/>
+          <Image src={memorize} alt="Memorize"/>
+          <Image src={bookmark} alt="Bookmark"/>
+          <Image src={ruqyah} alt="Ruqyah"/>
+          <Image src={qa} alt="Q&A"/>
+          <Image src={book} alt="Book"/>
         </div>
         <div className="">
-        <Image src={support} />
+        <Image src={support} alt="Support"/>
         </div>
       </div>
     </div>
